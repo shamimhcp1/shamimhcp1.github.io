@@ -15,27 +15,20 @@
     .col-12{ width: 100%; }
 }
 
-.container{
-    /*border: 1px solid red;*/
+[class*="col-"] {
+    /*border: 1px solid black;*/
+}
+
+.browser {
+    background-color: grey;
+    padding: 10px;
+}
+
+#hCardObject, #vCardObject {
+    display: none;
 }
 
 .img-responsive{
-    height: 10%;
-    width: 100%;
-}
-
-.modal-img-responsive{
     height: 100%;
     width: 100%;
 }
-
-@media screen and (max-width: 575px){
-  .c1{ margin-top: 10px;}
-
-}
-
-.header-height { height: 250px; }
-.menu-height { height: 50px; }
-.content-height { height: 1000px; }
-.footer-height { height: 100px; }
-.footer-height-1 { height: 50px; }
