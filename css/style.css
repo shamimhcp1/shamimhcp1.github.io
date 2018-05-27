@@ -57,6 +57,12 @@
     border: 1px solid black;
 }
 
+#babyCareObj, #beautyHObj, #discountObj, #foodObj, #homeAppObj, #homeCleaningObj, #offerObj, #officeProductObj, #petCareObj, #popularObj, #productReqObj, #ramadanObj {
+    display: none;
+    height: 1080px;
+    width: 100%;
+}
+
 /*
 ////////Side Navbar///////////
 */

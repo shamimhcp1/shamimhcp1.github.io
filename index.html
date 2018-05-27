@@ -12,7 +12,7 @@
 
 <nav class="navbar bg-chaldal text-dark fixed-top">
     <div class="col-md-3">
-        <span style="font-size:30px;" id="pointerBtn">&#9776; <img class="img-responsive ml-4 mr-4 mb-2" src="images/attaMoyda1.png"> </span>
+        <span style="font-size:30px;" id="pointerBtn">&#9776;<a href="index.html"><img class="img-responsive ml-4 mr-4 mb-2" src="images/attaMoyda1.png"></a></span>
     </div>
     <div class="col-md-6">
         <div class="input-group">
@@ -29,17 +29,19 @@
     </div>
 </nav>
 
+<!--Side Nav------------------------->
+
 
 <div id="mySidenav" class="sidenav">
     <div class="accordion" id="myAccordion2">
-        <a href="" class="pl-3 p-1">Offer<span class="badge badge-light">13</span></a>
-        <a href="" class="pl-3 p-1">Discounts</a>
-        <a href="" class="pl-3 p-1">Product Request</a>
+        <a href="" class="pl-3 p-1" id="offerNav">Offer<span class="badge badge-light">13</span></a>
+        <a href="" class="pl-3 p-1" id="discountsNav">Discounts</a>
+        <a href="" class="pl-3 p-1" id="productReqNav">Product Request</a>
         <div class="card">
-            <a href="" class="pl-3 p-1">Ramadan</a>
-            <a href="" class="pl-3 p-1">Popular</a>
+            <a href="" class="pl-3 p-1" id="ramadanNav">Ramadan</a>
+            <a href="" class="pl-3 p-1" id="popularNav">Popular</a>
             <div class="card-header">
-                <a href="#cardOne" data-toggle="collapse" >Food</a>
+                <a href="#cardOne" data-toggle="collapse" id="foodNav">Food</a>
             </div>
             <div id="cardOne" class="collapse" data-parent="#myAccordion2">
                 <ul class="list-group list-group-flush">
@@ -51,7 +53,7 @@
 
         <div class="card">
             <div class="card-header">
-                <a href="#cardTwo" data-toggle="collapse" >Home & Cleaning</a>
+                <a href="#cardTwo" data-toggle="collapse" id="homeCleaningNav">Home & Cleaning</a>
             </div>
             <div id="cardTwo" class="collapse" data-parent="#myAccordion2">
                 <ul class="list-group list-group-flush">
@@ -63,7 +65,7 @@
 
         <div class="card">
             <div class="card-header">
-                <a href="#cardThree" data-toggle="collapse" >Office Product</a>
+                <a href="#cardThree" data-toggle="collapse" id="officeProductNav" >Office Product</a>
             </div>
             <div id="cardThree" class="collapse" data-parent="#myAccordion2">
                 <ul class="list-group list-group-flush">
@@ -74,7 +76,7 @@
         </div>
         <div class="card">
             <div class="card-header">
-                <a href="#card4" data-toggle="collapse" >Baby Care</a>
+                <a href="#card4" data-toggle="collapse" id="babyCareNav">Baby Care</a>
             </div>
             <div id="card4" class="collapse" data-parent="#myAccordion2">
                 <ul class="list-group list-group-flush">
@@ -85,7 +87,7 @@
         </div>
         <div class="card">
             <div class="card-header">
-                <a href="#card5" data-toggle="collapse" >Beauty & Health</a>
+                <a href="#card5" data-toggle="collapse" id="beautyHealthNav">Beauty & Health</a>
             </div>
             <div id="card5" class="collapse" data-parent="#myAccordion2">
                 <ul class="list-group list-group-flush">
@@ -96,7 +98,7 @@
         </div>
         <div class="card">
             <div class="card-header">
-                <a href="#card6" data-toggle="collapse" >Pet Care</a>
+                <a href="#card6" data-toggle="collapse" id="petCareNav">Pet Care</a>
             </div>
             <div id="card6" class="collapse" data-parent="#myAccordion2">
                 <ul class="list-group list-group-flush">
@@ -107,7 +109,7 @@
         </div>
         <div class="card">
             <div class="card-header">
-                <a href="#card7" data-toggle="collapse" >Home Appliances</a>
+                <a href="#card7" data-toggle="collapse" id="homeAppNav">Home Appliances</a>
             </div>
             <div id="card7" class="collapse" data-parent="#myAccordion2">
                 <ul class="list-group list-group-flush">
@@ -119,7 +121,23 @@
     </div>
 </div>
 
+<!--Main------------------------->
+
 <div id="main">
+
+    <object data="browser/baby_care.html" id="babyCareObj"></object>
+    <object data="browser/beauty_health.html" id="beautyHObj"></object>
+    <object data="browser/discounts.html" id="discountObj"></object>
+    <object data="browser/food.html" id="foodObj"></object>
+    <object data="browser/home_appliances.html" id="homeAppObj"></object>
+    <object data="browser/home_cleaning.html" id="homeCleaningObj"></object>
+    <object data="browser/offer.html" id="offerObj"></object>
+    <object data="browser/office_product.html" id="officeProductObj"></object>
+    <object data="browser/pet_care.html" id="petCareObj"></object>
+    <object data="browser/popular.html" id="popularObj"></object>
+    <object data="browser/product_request.html" id="productReqObj"></object>
+    <object data="browser/ramadan.html" id="ramadanObj"></object>
+
 
    <div id="home">
        <div class="row">
@@ -296,24 +314,10 @@
            </div>
 
 
-
-
-
        </div>
 
-
-
-
-
-       </div>
+        </div>
    </div>
-
-
-
-
-</div>
-
-
 
 
 
