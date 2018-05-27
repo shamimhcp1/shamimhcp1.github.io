@@ -18,17 +18,101 @@
 [class*="col-"] {
     /*border: 1px solid black;*/
 }
-
-.browser {
-    background-color: grey;
-    padding: 10px;
-}
-
-#hCardObject, #vCardObject {
-    display: none;
+.card-header {
+    padding: 0.4rem 1rem;
+    margin-bottom: 0;
 }
 
 .img-responsive{
     height: 100%;
+    width: 140px;
+}
+
+.pic-responsive{
+    height: 100%;
     width: 100%;
 }
+
+#home {
+    margin-top: 40px;
+}
+
+.mt-10 {
+    margin-top: 100px;
+}
+.carousel-indicators {
+    margin-right: -20%;
+}
+
+.carousel-indicators li {
+    background-color: yellow;
+
+}
+
+.carousel-indicators .active {
+    background-color: red;
+}
+
+#mySlider {
+    border: 1px solid black;
+}
+
+/*
+////////Side Navbar///////////
+*/
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: ghostwhite;
+    border-right: 1px solid grey;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 0px;
+    margin-top: 65px;
+}
+
+.sidenav a {
+    padding: 0px;
+    text-decoration: none;
+    font-size: 1em;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+.bg-chaldal {
+    background-color: #FDD670;
+}
+#pointerBtn {
+    cursor:pointer;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+/*
+////////Side Navbar///////////
+*/

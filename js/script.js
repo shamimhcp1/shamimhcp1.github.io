@@ -1,36 +1,25 @@
 
-$('#hCardBtn').click(function () {
 
-    $('#hCardObject').css({
-        'display' : 'block'
-    })
-    $('#vCardObject').css({
-        'display' : 'none'
-    });
+document.getElementById("pointerBtn").addEventListener("click", toggleNav);
 
-});
+function toggleNav(){
 
+    navSize = document.getElementById("mySidenav").style.width;
+    if (navSize == 0) {
+        return openNav();
 
-$('#vCardBtn').click(function () {
-    $('#vCardObject').css({
-        'display' : 'block'
-    })
-    $('#hCardObject').css({
-        'display' : 'none'
-    });
-});
+    } else {
+        return closeNav();
 
-// ----DUBALE CLICK FUNCTION----
-        
-$('#vCardBtn').dblclick(function(){
- $('#vCardObject').css({
-        'display' : 'none'
-    });
-});
+    }
+};
 
+function openNav() {
+    document.getElementById("mySidenav").style.width = "220px";
+    document.getElementById("main").style.marginLeft = "220px";
+};
 
-$('#hCardBtn').dblclick(function(){
-    $('#hCardObject').css({
-        'display' : 'none'
-    });
-})
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+};
