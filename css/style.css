@@ -15,110 +15,65 @@
     .col-12{ width: 100%; }
 }
 
-[class*="col-"] {
-    /*border: 1px solid black;*/
-}
-.card-header {
-    padding: 0.4rem 1rem;
-    margin-bottom: 0;
+.container{
+    /*border: 1px solid red;*/
 }
 
 .img-responsive{
     height: 100%;
-    width: 140px;
-}
-
-.pic-responsive{
-    height: 100%;
     width: 100%;
 }
 
-#home {
-    margin-top: 40px;
-}
+.main-logo {
+    height: 150px;
 
-.mt-10 {
-    margin-top: 100px;
-}
-.carousel-indicators {
-    margin-right: -20%;
-}
-
-.carousel-indicators li {
-    background-color: yellow;
-
-}
-
-.carousel-indicators .active {
-    background-color: red;
-}
-
-#mySlider {
-    border: 1px solid black;
-}
-
-#babyCareObj, #beautyHObj, #discountObj, #foodObj, #homeAppObj, #homeCleaningObj, #offerObj, #officeProductObj, #petCareObj, #popularObj, #productReqObj, #ramadanObj {
-    display: none;
-    height: 1080px;
-    width: 100%;
-}
-
-/*
-////////Side Navbar///////////
-*/
-.sidenav {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: ghostwhite;
-    border-right: 1px solid grey;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 0px;
-    margin-top: 65px;
-}
-
-.sidenav a {
-    padding: 0px;
-    text-decoration: none;
-    font-size: 1em;
-    color: #818181;
+ }
+.main-logo img {
+    height: 140px;
+    margin-left: auto;
+    margin-right: auto;
     display: block;
-    transition: 0.3s;
+    margin-top: 10px;
 }
 
-.sidenav a:hover {
-    color: #f1f1f1;
+.border-bottom-set {
+    border-bottom: 1px solid brown;
 }
 
-.sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
+/*Transfarent Background*/
+
+.logo-background {
+    background: url("../images/photograph/IMGL7541.jpg");
+    background-size: cover;
+}
+.logo-transback {
+    background-color: #ffffff;
+    opacity: 0.9;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+/*Transfarent Background*/
+
+
+.nav-background {
+    background-color: #ffd740;
+}
+.section-background {
+    background-image: url("../images/background-repeat-1.jpg");
+    background-size: 10% 100%;
+    background-attachment: fixed;
+}
+.food-banner {
+    background-image: url("../images/food/banner-food.jpg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
 }
 
-#main {
-    transition: margin-left .5s;
-    padding: 16px;
+.drinks-banner {
+    background-image: url("../images/coffee/drinks-banner.jpg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
 }
-
-.bg-chaldal {
-    background-color: #FDD670;
+.banner-height {
+    height: 200px;
+    margin-top: 80px;
 }
-#pointerBtn {
-    cursor:pointer;
-}
-
-@media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-}
-
-/*
-////////Side Navbar///////////
-*/
