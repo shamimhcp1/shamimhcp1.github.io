@@ -1,3 +1,31 @@
+
+// back to top button
+
+$(document).ready(function(){
+    $(window).scroll(function(){
+        if ($(this).scrollTop() > 100) {
+            $('#scroll').fadeIn();
+        } else {
+            $('#scroll').fadeOut();
+        }
+    });
+    $('#scroll').click(function(){
+        $("html, body").animate({ scrollTop: 0 }, 600);
+        return false;
+    });
+});
+
+// back to top button
+
+
+// Fixed on scroll navbar
+
+
+
+// Fixed on scroll navbar
+
+
+
 /////////////////////////////////// Modal
 $(function() {
 
