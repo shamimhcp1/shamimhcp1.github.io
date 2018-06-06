@@ -67,6 +67,11 @@
     background-size: 100% 100%;
     background-attachment: fixed;
 }
+.about-banner {
+    background-image: url("../images/photograph/about.jpg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
 
 .drinks-banner {
     background-image: url("../images/coffee/drinks-banner.jpg");
@@ -77,3 +82,24 @@
     height: 200px;
     margin-top: 80px;
 }
+
+
+/*map*/
+.mapouter {
+    text-align:right;
+    height:500px;
+    /*width:600px;*/
+}
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:500px;
+    /*width:600px;*/
+}
+
+.mapouter iframe {
+    width: 100%;
+    height: 500px;
+}
+
+/*map*/
