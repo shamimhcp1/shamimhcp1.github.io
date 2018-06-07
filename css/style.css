@@ -43,12 +43,12 @@
 /*Transfarent Background*/
 
 .logo-background {
-    background: url("../images/photograph/IMGL7541.jpg");
+    background: url("../images/1-bean-banner.jpg");
     background-size: cover;
 }
 .logo-transback {
-    background-color: #ffffff;
-    opacity: 0.7;
+    background-color: white;
+    opacity: 0.85;
     filter: alpha(opacity=60); /* For IE8 and earlier */
 }
 /*Transfarent Background*/
