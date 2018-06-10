@@ -57,6 +57,7 @@
     opacity: 0.85;
     filter: alpha(opacity=60); /* For IE8 and earlier */
 }
+
 /*Transfarent Background*/
 
 
@@ -75,6 +76,12 @@
 }
 .about-banner {
     background-image: url("../images/photograph/about.jpg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.footer-background {
+    background: url("../images/photograph/footer.jpg");
     background-size: 100% 100%;
     background-attachment: fixed;
 }
@@ -139,6 +146,7 @@
     padding-top: 3px;
     padding-bottom: 3px;
     text-align: center;
+
 }
 
 #myFooter .row {
@@ -411,6 +419,7 @@
     transition: 1s;
     padding: 8px;
     box-shadow: 1px 2px 20px grey;
+    opacity: 0.9;
 }
 
 /* fixed to top styles */
